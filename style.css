@@ -9,6 +9,40 @@ body {
   color:black;
   margin:2em;
 }
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align content towards the top */
+  height: 100vh; /* Adjust the height as needed */
+  padding-top: 20px; /* Add top padding */
+}
+
+/* Header styles */
+header {
+  background-color: #d699e1;
+  color: #fff;
+  padding: 20px;
+}
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  color: #e554de;
+}
+
 
 h1 {
   text-decoration: underline red;
